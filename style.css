@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(196, 239, 255);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    transition: 0.3s;
+}
+nav a{
+    color: rgb(215, 19, 193);
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px;   
+}
+nav a:hover{
+    color: rgb(185, 177, 25);
+    background-color: rgb(147, 195, 170);
+}
+section{
+    padding: 15px;
+    text-align: center;
+}
+#home{
+    background-color: rgb(202, 193, 103);
+}
+#about{
+    background-color: rgb(176, 149, 149);
+}
+#gallery{
+    background-color: rgb(121, 142, 161);
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+}
+.gallery img{
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border: 2px solid rgb(208,206,206);
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgb(245, 242, 242);
+}
